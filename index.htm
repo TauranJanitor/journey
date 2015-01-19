@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Journey Bouncer Game</title>
+<link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
+<link type="image/x-icon" rel="icon" href="favicon.ico" />
+<link type="text/css" rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="scripts/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="scripts/quintus-0.2.0-all.min.js"></script>
+<script type="text/javascript" src="scripts/journey.js"></script>
+</head>
+<body>
+<header>
+  <img src="images/journey_escape.png" />
+</header>
+<div id="canvasarea">
+  <canvas id="gamecanvas" width="480px" height="512px"></canvas>
+</div>
+<footer>
+  <div id="songselector">
+  <input type="radio" name="song" value="Separate Ways" checked="checked" />Separate Ways<br />
+  <input type="radio" name="song" value="Don't Stop Believin'" />Don't Stop Believin'
+  </div>
+  <div id="songplayer">
+  <audio id="audio" src="audio/Journey - Separate Ways Midi.mp3" autoplay loop controls></audio>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+  background: black;
+  width: 480px;
+  margin: 0 auto;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#songselector {
+  float: left;
+  color: #2266ff;
+}
+
+#songplayer  {
+  float: right;
+}
+
+#audio {
+  margin: 5px 5px 5px 5px;
+}
+
+#canvasarea {
+  width: 480px;
+  height: 512px;
+}
+
+header {
+  text-align: center;
+}
