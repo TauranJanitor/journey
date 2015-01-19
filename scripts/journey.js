@@ -8,7 +8,7 @@ $(document).ready(function() {
   //jQuery code allowing user to change tracks
   $("input[type=radio][name=song]").change(function() {
     var song = $(this).val();
-    $("#audio").attr("src", "audio/Journey - " + song + " Midi.mp3");
+    $("#audio").attr("src", "audio/Journey - " + song + ".mp3");
     $("#gamecanvas").focus();
   });
   
